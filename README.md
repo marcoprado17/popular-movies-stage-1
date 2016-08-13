@@ -1,6 +1,6 @@
 # popular-movies-stage-1
 
-This is a simple android app that has a catalog of movies sorted by popularity or user rate. Clicking in the poster of the movie you can see more details.
+This is a simple android app that has a catalog of movies sorted by popularity or user rate. Clicking in the poster of the movie you can see more details about it.
 
 ![alt text](http://i.imgur.com/j9AM3NK.png?1) ![alt text](http://i.imgur.com/Nhdc89P.png?1)
 
