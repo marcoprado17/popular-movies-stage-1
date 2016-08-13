@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context="com.example.marcoaurelio.popularmovies.DetailFragment">
+
+        <TextView
+            android:id="@+id/movie_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interstellar_title"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/movie_poster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/interstellar_poster" />
+
+        <TextView
+            android:id="@+id/movie_overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/interstellar_overview"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/movie_average"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/interstellar_average"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/movie_relase_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/interstellar_release_date"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>
+
+
