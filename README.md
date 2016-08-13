@@ -1,8 +1,12 @@
-# popular-movies-stage-1
+# Popular Movies
+
+## The App
 
 This is a simple android app that has a catalog of movies sorted by popularity or user rate. Clicking in the poster of the movie you can see more details about it.
 
 ![alt text](http://i.imgur.com/j9AM3NK.png?1) ![alt text](http://i.imgur.com/Nhdc89P.png?1)
+
+## API Key
 
 The data and images of the movies are fetched from [themoviedb.org API](https://www.themoviedb.org/documentation/api).
 
